@@ -7,11 +7,11 @@ class FruitsCounter extends Component {
   state = {mangoesCount: 0, bananasCount: 0}
 
   mangoCount = () => {
-    this.setSate(prevState => ({mangoesCount: prevState.mangoesCount + 1}))
+    this.setState(prevState => ({mangoesCount: prevState.mangoesCount + 1}))
   }
 
   bananaCount = () => {
-    this.setSate(prevState => ({bananasCount: prevState.bananasCount + 1}))
+    this.setState(prevState => ({bananasCount: prevState.bananasCount + 1}))
   }
 
   render() {
